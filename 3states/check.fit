@@ -1,0 +1,9 @@
+FITTING 
+jlist 0.5 - 99.5
+itmax 0
+lock 100000
+target_rms 0.001
+fit_type dgelss
+output 3state_chk
+robust 0.01
+energies (J	tp	NN	E	poten	v	lam	sig	omeg	weight)
