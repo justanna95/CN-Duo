@@ -1,0 +1,9 @@
+FITTING 
+jlist 0.5 - 97.5
+itmax 0
+lock 100
+target_rms 0.000001
+fit_type dgelss
+output X_chk
+robust 0.00001
+energies (J	tp	NN	E	poten	v	lam	sig	omeg	weight)

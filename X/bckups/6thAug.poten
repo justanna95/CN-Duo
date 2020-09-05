@@ -1,0 +1,56 @@
+
+(CN first attempt)
+atoms C N
+
+(number of electronic states to be included)
+nstates 1
+
+(Total angular momentum quantum, value or range)
+jrot 0.5
+
+ASSIGN_V_BY_COUNT
+
+symmetry Cs(M)
+
+(Define integration grid)
+grid
+  npoints 1001
+  range 0.1 , 7.0
+   type 0
+   re 1.2
+end
+
+vibrationalbasis
+  vmax 25 
+end
+
+DIAGONALIZER 
+ SYEV   (SYEVR)
+ nroots  200
+end
+
+poten 1
+name "X2Sigma+"
+symmetry +
+lambda 0
+mult 2
+type EMO
+values
+V0           0.00000000000000E+00  
+RE           1.17018749277469E+00  
+DE           6.30766093356261E+04  
+RREF        -1.00000000000000E+00     
+PL           4.00000000000000E+00     
+PR           4.00000000000000E+00     
+NL           4.00000000000000E+00     
+NR           6.00000000000000E+00     
+B0           2.54970532059692E+00  
+B1           0.00000000000000E+00     
+B2           4.39750336292019E-01  
+B3           0.00000000000000E+00     
+B4           2.18160315684002E-01  
+B5           0.00000000000000E+00     
+B6           1.12446796486937E+00  
+end
+
+
