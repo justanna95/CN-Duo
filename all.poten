@@ -1,0 +1,92 @@
+
+(CN first attempt)
+atoms C N
+
+(number of electronic states to be included)
+nstates 3
+
+(Total angular momentum quantum, value or range)
+jrot 0.5 - 9.5
+
+ASSIGN_V_BY_COUNT
+
+symmetry Cs(M)
+
+(Define integration grid)
+grid
+  npoints 1001
+  range 0.2 , 2.7
+   type 0
+   re 1.2
+end
+
+vibrationalbasis
+  vmax 25 30 25
+end
+
+DIAGONALIZER 
+ SYEV   (SYEVR)
+ nroots  200
+end
+
+poten 1
+name "X2Sigma+"
+symmetry +
+lambda 0
+mult 2
+type EMO
+values
+V0           0.00000000000000E+00  
+RE           1.17029556441561E+00 
+DE           6.32970400000000E+04     
+RREF        -1.00000000000000E+00     
+PL           4.00000000000000E+00     
+PR           4.00000000000000E+00     
+NL           2.00000000000000E+00     
+NR           2.00000000000000E+00     
+B0           2.54082238204548E+00  
+B1           2.20995646416194E-01  
+B2           2.92316232534684E-01  
+end
+
+poten 2
+name "A2Pi"
+lambda 1
+mult 2
+type EMO
+values
+V0           9.25368598929634E+03  
+RE           1.23282232731226E+00  
+DE           6.32970400000000E+04     
+RREF        -1.00000000000000E+00     
+PL           4.00000000000000E+00     
+PR           4.00000000000000E+00     
+NL           3.00000000000000E+00     
+NR           2.00000000000000E+00     
+B0           2.40975877368477E+00  
+B1           1.34030154592019E-01  
+B2           2.21378329915741E-01  
+B3           0.00000000000000E+00
+end
+
+
+poten 3
+name "B2Sigma+"
+symmetry +
+lambda 0
+mult 2 
+type EMO
+values
+V0           2.57232377830259E+04  
+RE           1.13800473347344E+00  
+DE           8.24290000000000E+04     
+RREF        -1.00000000000000E+00     
+PL           4.00000000000000E+00     
+PR           4.00000000000000E+00     
+NL           3.00000000000000E+00     
+NR           2.00000000000000E+00     
+B0           2.84311572206104E+00  fit
+B1           3.39065943475658E-01  fit
+B2          -1.43161481927991E+00  fit
+B3          -1.04744448383425E+01  fit
+end
