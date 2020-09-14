@@ -5,7 +5,7 @@ export PYTHONPATH=/home/561/as6783/.local/lib/python3.7/site-packages:$PYTHONPAT
 
 
 module load python3
-grep ")(" XA_chk.en  > chk.txt
+grep ")(" 3state_chk.en  > chk.txt
 
 
 python3 ../check-v.py

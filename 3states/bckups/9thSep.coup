@@ -1,0 +1,244 @@
+
+SPIN-SPIN          1      1
+name    <X2Sigma+|SS-O|X2Sigma+>
+type              BOBLEROY
+units  cm-1
+lambda 0 0
+mult   2.0 2.0
+factor 1
+N 8
+Values
+RE           1.17000000000000E+00     
+RREF        -1.00000000000000E+00     
+P            1.00000000000000E+00     
+NT           2.00000000000000E+00     
+B0           1.00000000162836E-01 
+B1           0.00000000000000E+00     
+B2           0.00000000000000E+00     
+BINF         0.00000000000000E+00     
+end
+
+BOBROT          1      1
+name    <X2Sigma+|BROT|X2Sigma+>
+type              BOBLEROY
+units  cm-1
+lambda 0 0
+mult   2.0 2.0
+factor 1
+N 8
+Values
+RE           1.17000000000000E+00     
+RREF        -1.00000000000000E+00     
+P            1.00000000000000E+00     
+NT           2.00000000000000E+00     
+B0           1.82410483204632E-03  
+B1           0.00000000000000E+00     
+B1           0.00000000000000E+00     
+BINF         0.00000000000000E+00     
+end
+
+SPIN-ROT          1      1
+name    <X2Sigma+|S-rot|X2Sigma+>
+type              BOBLEROY
+units  cm-1
+lambda 0 0
+mult   2.0 2.0
+factor 1
+N 8
+Values
+RE           1.17000000000000E+00     
+RREF        -1.00000000000000E+00     
+P            2.00000000000000E+00     
+NT           2.00000000000000E+00     
+B0           6.73143999637874E-03  
+B1           7.18845652638432E-03  
+B2           0.00000000000000E+00     
+BINF         0.00000000000000E+00     
+end
+
+
+
+
+
+
+SPIN-ORBIT  2 2
+name "<Lambda=+1,S=1 (A2Pi)|LSZ|+1 (A2Pi),S=1>"
+spin   0.5 0.5
+lambda 1 1
+sigma 0.5 0.5
+type  BOBLEROY
+units  cm-1
+factor    1.0   (0, 1 or i)
+N 9
+Values
+RE           1.23000000000000E+00
+RREF        -1.00000000000000E+00
+P            1.00000000000000E+00
+NT           2.00000000000000E+00
+B0          -2.43281432122254E+01  fit
+B1           0.00000000000000E+00
+BINF         0.00000000000000E+00
+end
+
+
+SPIN-SPIN          2      2
+name    <A2Pi|SS-O|A2Pi>
+type              BOBLEROY
+units  cm-1
+lambda 1 1
+mult   2.0 2.0
+factor 1
+N 8
+Values
+RE           1.23000000000000E+00     
+RREF        -1.00000000000000E+00     
+P            1.00000000000000E+00     
+NT           2.00000000000000E+00     
+B0           1.00000000162945E-01  
+B1           0.00000000000000E+00     
+B2           0.00000000000000E+00     
+BINF         0.00000000000000E+00     
+end
+
+BOBROT          2      2
+name    <A2Pi|BROT|A2Pi>
+type              BOBLEROY
+units  cm-1
+lambda 1  1
+mult   2.0 2.0
+factor 1
+N 8
+Values
+RE           1.23000000000000E+00     
+RREF        -1.00000000000000E+00     
+P            1.00000000000000E+00     
+NT           2.00000000000000E+00     
+B0          -9.34071608134940E-02  
+B1           0.00000000000000E+00     
+BINF         0.00000000000000E+00     
+end
+
+SPIN-ROT          2      2
+name    <A2Pi|S-rot|A2Pi>
+type              BOBLEROY
+units  cm-1
+lambda 1 1
+mult   2.0 2.0
+factor 1
+N 8
+Values
+RE           1.23000000000000E+00     
+RREF        -1.00000000000000E+00     
+P            2.00000000000000E+00     
+NT           2.00000000000000E+00     
+B0          -3.75280966187095E-02  
+B1           0.00000000000000E+00
+B2           0.00000000000000E+00     
+BINF         0.00000000000000E+00     
+end
+
+
+
+
+SPIN-SPIN          3      3
+name    <B2Sigma+|SS-O|B2Sigma+>
+type              BOBLEROY
+units  cm-1
+lambda 0 0
+mult   2.0 2.0
+factor 1
+N 8
+Values
+RE           1.15000000000000E+00     
+RREF        -1.00000000000000E+00     
+P            1.00000000000000E+00     
+NT           2.00000000000000E+00     
+B0           1.00000000174549E-01  
+B1           0.00000000000000E+00     
+B2           0.00000000000000E+00     
+BINF         0.00000000000000E+00     
+end
+
+
+BOBROT          3      3
+name    <B2Sigma+|BROT|B2Sigma+>
+type              BOBLEROY
+units  cm-1
+lambda 0 0
+mult   2.0 2.0
+factor 1
+N 8
+Values
+RE           1.15000000000000E+00     
+RREF        -1.00000000000000E+00     
+P            1.00000000000000E+00     
+NT           2.00000000000000E+00     
+B0          -9.72509339567437E-02  
+B1           0.00000000000000E+00     
+BINF         0.00000000000000E+00     
+end
+
+
+SPIN-ROT          3      3
+name    <B2Sigma+|S-rot|B2Sigma+>
+type              BOBLEROY
+units  cm-1
+lambda 0 0
+mult   2.0 2.0
+factor 1
+N 8
+Values
+RE           1.15000000000000E+00     
+RREF        -1.00000000000000E+00     
+P            2.00000000000000E+00     
+NT           2.00000000000000E+00     
+B0           5.02648191427666E-03  
+B1           0.00000000000000E+00     
+B2           0.00000000000000E+00     
+BINF         0.00000000000000E+00     
+end
+
+
+
+
+
+SPIN-ORBIT  1 2
+name "<Lamda=0, (X2Sigma+)|LSX|+1 (A2Pi)>"
+spin   0.5 0.5
+lambda  0 -1
+sigma  -0.5  0.5     (<  0 0.5 |  1  -0.5 > =  1.0)   (only unique or non-zero combinations)
+type  BOBLEROY
+units  cm-1
+factor    1.0   (0, 1 or i)
+N 9
+Values
+RE           1.23000000000000E+00
+RREF        -1.00000000000000E+00
+P            1.00000000000000E+00
+NT           2.00000000000000E+00
+B0          -1.88717153842918E+02  fit
+B1           0.00000000000000E+00
+BINF         0.00000000000000E+00
+end
+
+
+SPIN-ORBIT  3 2
+name "<Lamda=0, (B2Sigma+)|LSX|+1 (A2Pi)>"
+spin   0.5 0.5
+lambda  0 -1
+sigma  -0.5  0.5     (<  0 0.5 |  1  -0.5 > =  1.0)   (only unique or non-zero combinations)
+type  BOBLEROY
+units  cm-1
+factor    1.0   (0, 1 or i)
+N 9
+Values
+RE           1.23000000000000E+00
+RREF        -1.00000000000000E+00
+P            1.00000000000000E+00
+NT           2.00000000000000E+00
+B0          -3.83213876819007E+01  
+B1           0.10000000000000E+00 
+BINF         0.00000000000000E+00
+end
+
+

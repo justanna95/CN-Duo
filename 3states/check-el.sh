@@ -1,7 +1,7 @@
 
 
 export PATH=/home/561/as6783/.local/bin/:$PATH
-export PYTHONPATH=/home/561/as6783/.local/lib/python3.7/site-packages:$PYTHONPATH
+export PYTHONPATH=/home/561/as6783/.local/lib/python3.8/site-packages:$PYTHONPATH
 
 
 

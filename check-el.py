@@ -12,6 +12,8 @@ df = pd.read_csv('chk.txt', sep = '\s+', usecols=[2,6,9,10], names= [ "J", "delt
 df.head()
 pd.set_option('display.max_rows', df.shape[0]+1)
 
+print(df.groupby("el").delta.mad())
+
 el = [1,2,3]
 for i in el:
 	sub = df.query("el== @i")
