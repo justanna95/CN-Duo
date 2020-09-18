@@ -5,7 +5,8 @@ __pycache__/
 
 # Duo large files
 *.en
-
+*.states
+*.trans
 # C extensions
 *.so
 

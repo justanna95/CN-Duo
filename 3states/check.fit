@@ -1,4 +1,4 @@
-FITTING 
+FITTING off
 jlist 0.5 - 99.5
 itmax 0
 lock 100000
