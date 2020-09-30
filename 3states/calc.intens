@@ -164,12 +164,13 @@ end
 
 INTENSITY 
   absorption  (absorption, partfunc, emission)
-  THRESH_INTES  1e-55
-  THRESH_LINE   1e-55
+  THRESH_INTES  1e-30
+  THRESH_LINE   1e-30
   TEMPERATURE   1000.0
   GNS           3.0 
   ZPE           0	(ZPE=0 means recompute)
   selection (rules) 1 1
-  linelist  18092020_12C14N
-  J,  0.5, 100.5
-  freq-window   0.0,   55000.0  (energy low   -0.001, 15000.00, upper   -0.00, 50000.0)
+  linelist  12C14N_J20_1000K_e0
+  J,  0.5, 20.5
+  freq-window   0.0,   55000.0  
+  energy low   -0.001, 15000.00, upper   -0.00, 50000.0

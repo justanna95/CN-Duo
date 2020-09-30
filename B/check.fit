@@ -1,5 +1,5 @@
 FITTING 
-jlist 0.5 - 67.5
+jlist 0.5 - 68.5
 itmax 0
 lock 10000
 target_rms 0.001

@@ -8,4 +8,4 @@ module load python3
 grep ")(" A_chk.en  > chk.txt
 
 
-python3 ../check-J.py
+python3 ../check-v.py
