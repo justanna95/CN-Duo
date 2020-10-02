@@ -140,68 +140,6 @@ end
 
 
 
-SPIN-SPIN          3      3
-name    <B2Sigma+|SS-O|B2Sigma+>
-type              BOBLEROY
-units  cm-1
-lambda 0 0
-mult   2.0 2.0
-factor 1
-N 8
-Values
-RE           1.15000000000000E+00     
-RREF        -1.00000000000000E+00     
-P            1.00000000000000E+00     
-NT           2.00000000000000E+00     
-B0           1.00000000174549E-01  
-B1           0.00000000000000E+00     
-B2           0.00000000000000E+00     
-BINF         0.00000000000000E+00     
-end
-
-
-BOBROT          3      3
-name    <B2Sigma+|BROT|B2Sigma+>
-type              BOBLEROY
-units  cm-1
-lambda 0 0
-mult   2.0 2.0
-factor 1
-N 8
-Values
-RE           1.15000000000000E+00     
-RREF        -1.00000000000000E+00     
-P            1.00000000000000E+00     
-NT           2.00000000000000E+00     
-B0          -9.72509339567437E-02  
-B1           0.00000000000000E+00     
-BINF         0.00000000000000E+00     
-end
-
-
-SPIN-ROT          3      3
-name    <B2Sigma+|S-rot|B2Sigma+>
-type              BOBLEROY
-units  cm-1
-lambda 0 0
-mult   2.0 2.0
-factor 1
-N 8
-Values
-RE           1.15000000000000E+00     
-RREF        -1.00000000000000E+00     
-P            2.00000000000000E+00     
-NT           2.00000000000000E+00     
-B0           5.02648191427666E-03  
-B1           0.00000000000000E+00     
-B2           0.00000000000000E+00     
-BINF         0.00000000000000E+00     
-end
-
-
-
-
-
 SPIN-ORBIT  1 2
 name "<Lamda=0, (X2Sigma+)|LSX|+1 (A2Pi)>"
 spin   0.5 0.5
@@ -218,66 +156,6 @@ P            1.00000000000000E+00
 NT           2.00000000000000E+00
 B0          -9.24951496701345E+01  
 B1           0.00000000000000E+00
-BINF         0.00000000000000E+00
-end
-
-
-SPIN-ORBIT  3 2
-name "<Lamda=0, (B2Sigma+)|LSX|+1 (A2Pi)>"
-spin   0.5 0.5
-lambda  0 -1
-sigma  -0.5  0.5     (<  0 0.5 |  1  -0.5 > =  1.0)   (only unique or non-zero combinations)
-type  BOBLEROY
-units  cm-1
-factor    0.0   (0, 1 or i)
-N 9
-Values
-RE           1.23000000000000E+00
-RREF        -1.00000000000000E+00
-P            1.00000000000000E+00
-NT           2.00000000000000E+00
-B0          0.0 
-B1           0.00000000000000E+00 
-BINF         0.00000000000000E+00
-end
-
-
-SPIN-ORBIT  3 4
-name "<Lamda=0, (B2Sigma+)|LSX|0 (a4Sigma+)>"
-spin   0.5 1.5
-lambda  0 0
-sigma  0.5  0.5     (<  0 0.5 |  1  -0.5 > =  1.0)   (only unique or non-zero combinations)
-type  BOBLEROY
-units  cm-1
-factor    1.0   (0, 1 or i)
-N 9
-Values
-RE           1.23000000000000E+00
-RREF        -1.00000000000000E+00
-P            1.00000000000000E+00
-NT           2.00000000000000E+00
-B0           0.83213876819007E+00 
-B1           0.10000000000000E+00
-BINF         0.00000000000000E+00
-end
-
-
-SPIN-SPIN          4	  4
-name    <a4Sigma+|SS-O|a4Sigma+>
-type              BOBLEROY
-units  cm-1
-lambda 0 0
-mult   4.0 4.0
-factor 1
-N 8
-Values
-RE           1.23000000000000E+00
-RREF        -1.00000000000000E+00
-P            1.00000000000000E+00
-NT           2.00000000000000E+00
-B0           4.00000000162836E-01 
-B1           0.00000000000000E+00
-B2           0.00000000000000E+00
 BINF         0.00000000000000E+00
 end
 
@@ -302,23 +180,3 @@ B3                0.00000000000000E+00
 BINF              0.10000000000000E+01
 end
 
-
-L+  3 2
-name "<B2Sigma+|Lx+iLy|A2Pi>"
-lambda  0 -1
-spin   0.5 0.5
-units  cm-1
-factor    0.0   (0, 1 or i)
-type  BOBLEROY
-N 9
-values
-RE                0.12300000000000E+01
-RREF             -0.10000000000000E+01
-P                 0.20000000000000E+01
-NT                0.30000000000000E+01
-B0           0.0 
-B1                0.00000000000000E+00
-B2                0.00000000000000E+00
-B3                0.00000000000000E+00
-BINF              0.10000000000000E+01
-end
