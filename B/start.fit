@@ -1,6 +1,6 @@
 FITTING 
 jlist 0.5 - 63.5
-itmax 20
+itmax 15
 lock 10000
 target_rms 0.00000001
 fit_type dgelss
