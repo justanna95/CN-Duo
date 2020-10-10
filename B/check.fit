@@ -6,4 +6,5 @@ target_rms 0.001
 fit_type dgelss
 output B_chk
 robust 0.01
+ZPE -2.4680524E+04
 energies (J	tp	NN	E	poten	v	lam	sig	omeg	weight)

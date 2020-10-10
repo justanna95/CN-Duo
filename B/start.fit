@@ -1,9 +1,10 @@
 FITTING 
-jlist 0.5 - 63.5
-itmax 15
+jlist 0.5 - 10.5
+itmax 50
 lock 10000
 target_rms 0.00000001
 fit_type dgelss
 output B_fit
 robust 0.00000001
+ZPE -2.4680824E+04
 energies (J	tp	NN	E	poten	v	lam	sig	omeg	weight)

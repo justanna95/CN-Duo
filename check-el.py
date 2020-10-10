@@ -19,7 +19,7 @@ print(df.groupby("el").absdiff.mean())
 print("mad")
 print(df.groupby("el").delta.mad())
 
-el = [1,2,3]
+el = df.el.unique()
 for i in el:
 	sub = df.query("el== @i")
 	print(f"Electronic state {i}")
