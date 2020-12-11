@@ -1,6 +1,6 @@
 FITTING 
-jlist 0.5 - 68.5
-itmax 50
+jlist 0.5 - 99.5
+itmax 15
 lock 10000
 target_rms 1E-11
 fit_type dgelss
