@@ -667,7 +667,6 @@ INTENSITY
   THRESH_LINE   1e-30
   TEMPERATURE   1000.0
   GNS           3.0 
-  ZPE           0	(ZPE=0 means recompute)
   selection (rules) 1 1
   linelist  12C14N_J20_1000K_e0
   J,  0.5, 20.5

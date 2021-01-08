@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -P on41
+#PBS -l walltime=5:00:00
+#PBS -l mem=15gb
+#PBS -l ncpus=4
+#PBS -l wd
+#PBS -l storage=scratch/on41
+
+# load modules -->  module load ...
+
+ ./../j-duo-2402.x < temp.inp > temp.out
+
+

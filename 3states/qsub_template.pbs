@@ -1,0 +1,12 @@
+#!/bin/bash
+#PBS -P on41
+#PBS -l walltime=1:00:00
+#PBS -l mem=10gb
+#PBS -l ncpus=4
+#PBS -l wd
+#PBS -l storage=scratch/on41
+
+# load modules -->  module load ...
+ 
+
+
